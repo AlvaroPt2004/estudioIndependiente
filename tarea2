@@ -1,0 +1,19 @@
+@startuml
+
+class Punto2D {
+    - x: float
+    - y: float
+    + getX(): float
+    + getY(): float
+}
+
+class Circunferencia {
+    - radio: float
+    - centro: Punto2D
+    + getRadio(): float
+    + getCentro(): Punto2D
+    + getArea(): float
+    + getPerimetro(): float
+}
+
+@enduml
