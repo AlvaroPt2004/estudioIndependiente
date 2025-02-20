@@ -1,0 +1,10 @@
+@startuml
+
+class Temperatura {
+    - celsius: float
+    + setCelsius(c: float): void
+    + getCelsius(): float
+    + getFahrenheit(): float
+}
+
+@enduml
