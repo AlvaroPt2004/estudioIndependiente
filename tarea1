@@ -1,0 +1,13 @@
+@startuml
+
+class Persona {
+    - nombre: String
+    - apellidos: String
+    - añoNacimiento: int
+    + getNombre(): String
+    + getApellidos(): String
+    + getAñoNacimiento(): int
+    + getEdad(anioActual: int): int
+}
+
+@enduml
